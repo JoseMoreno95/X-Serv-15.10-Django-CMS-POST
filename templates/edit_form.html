@@ -1,0 +1,22 @@
+<html>
+  <center>{{ message }} {{ link |safe}}</center>
+  <body bgcolor="#E6E6FA">
+    <p>
+    </p>
+    <h1>
+      <center><form action= '/edit/{{ resource }}/' method='post'>
+      Edite la página:<br>
+      <input type='text' name='newPage' value='{{ page }}'>
+      <br>
+      <input type='submit' value='Editar'>
+    </form></center>
+    </h1>
+    <p>
+    </p>
+    <p>
+        <b>
+          <center>Para ir a la página principal, pincha<a href="http://localhost:8000"> aqui</a></center>
+        </b>
+    </p>
+  </body>
+</html>
